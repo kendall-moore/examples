@@ -1,0 +1,10 @@
+[[runners]]
+  name = "energy_runner"
+  url = "http://example.com/energy-runner"
+  token = "000000000000000000000000000000"
+  executor = "batch"
+  setuid = true
+  setuid_data_dir = "/share/energy-gitlab-runner/"
+  allow_impersonation = true
+  impersonation_mappings = "/share/energy-gitlab-runner/impersonation_mappings.toml"
+  [runners.cache]
