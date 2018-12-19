@@ -1,0 +1,11 @@
+# see https://docs.gitlab.com/ce/ci/yaml/README.html for all available options
+variables:
+  CI_DEBUG_SERVICES: trace
+  SCHEDULER_PARAMETERS: "-J test"
+  ENERGY_ORG_PROJECT: "Project X"
+
+build1:
+ stage: build
+ script:
+   - echo "Do your build here"
+   - whoami
