@@ -1,0 +1,16 @@
+title = "Energy Organization Batch System Mappings"
+
+[owner]
+name = "John Doe"
+organization = "Energy Org"
+bio = "Creator of all mappings"
+
+  [[projects]]
+  tag = "ENERGY_ORG_PROJECT"
+  name = "Project X"
+  group = "valid_posix_group_x"
+
+  [[projects]]
+  tag = "ENERGY_ORG_PROJECT"
+  name = "Project Y"
+  group = "valid_posix_group_y"
